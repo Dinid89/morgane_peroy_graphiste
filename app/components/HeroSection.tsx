@@ -18,7 +18,7 @@ export default function HeroSection() {
           >
             Contact
           </a>
-          <a href="/portoflio" className="text-sm font-semibold">
+          <a href="/portfolio" className="text-sm font-semibold">
             Portfolio <span aria-hidden="true">→</span>
           </a>
         </div>
