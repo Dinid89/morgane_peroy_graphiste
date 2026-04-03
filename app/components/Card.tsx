@@ -1,22 +1,20 @@
-export default function Card({ name, description, imageSrc, imageAlt, href }) {
+// app/components/Card.tsx
+interface CardProps {
+  name: string;
+  description: string;
+  imageSrc: string;
+  imageAlt: string;
+  href: string;
+}
+
+export default function Card({ name, description, imageSrc, imageAlt, href }: CardProps) {
   return (
-    <div className="group border border-1 border-gray-400 min-h-[500px] text-center items-center p-5">
-      <img
-        src={imageSrc}
-        alt={imageAlt}
-        className="w-full h-80 object-cover rounded-lg group-hover:opacity-75 transition"
-      />
-
-      <h3 className="mt-4 text-lg font-semibold">{name}</h3>
-      <p className="text-white/60">{description}</p>
-
-      <br />
-
-      <a
-        href={href}
-        className="inline-block px-4 py-2 text-sm font-medium border border-white rounded hover:bg-white hover:text-black transition"
-      >
-        Voir
+    <div className="group border border-1 border-gray-400 min-h-[500px] text-center items-center">
+      <img src={imageSrc} alt={imageAlt} className="w-full h-64 object-cover" />
+      <h3 className="mt-4 font-semibold text-lg">{name}</h3>
+      <p className="mt-2 text-gray-600">{description}</p>
+      <a href={href} className="mt-4 inline-block text-blue-500 hover:underline">
+        En savoir plus
       </a>
     </div>
   );
