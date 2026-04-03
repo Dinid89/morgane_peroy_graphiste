@@ -13,12 +13,12 @@ export default function HeroSection() {
         </p>
         <div className="mt-8 flex items-center justify-center gap-x-6">
           <a
-            href="#"
+            href="/contact"
             className="rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white hover:bg-white/20"
           >
             Contact
           </a>
-          <a href="#" className="text-sm font-semibold">
+          <a href="/portoflio" className="text-sm font-semibold">
             Portfolio <span aria-hidden="true">→</span>
           </a>
         </div>
