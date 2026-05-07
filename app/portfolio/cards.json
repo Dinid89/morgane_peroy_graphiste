@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Projet 1",
+    "href": "#",
+    "description": "Description",
+    "imageSrc": "https://picsum.photos/400/400",
+    "imageAlt": "Projet 1"
+  },
+  {
+    "id": 2,
+    "name": "Projet 2",
+    "href": "#",
+    "description": "Description",
+    "imageSrc": "https://picsum.photos/400/400",
+    "imageAlt": "Projet 2"
+  },
+  {
+    "id": 3,
+    "name": "Projet 3",
+    "href": "#",
+    "description": "Description",
+    "imageSrc": "https://picsum.photos/400/400",
+    "imageAlt": "Projet 3"
+  }
+]

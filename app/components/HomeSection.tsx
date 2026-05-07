@@ -29,10 +29,10 @@ const features = [
 
 export default function Example() {
   return (
-    <div className="bg-black py-5 sm:py-5">
+    <div className="bg-primary py-2 sm:py-5">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl lg:text-balance text-center">
+          <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-black sm:text-5xl lg:text-balance text-center">
             Mes services
           </p>
           <p className="mt-6 text-lg/8 text-gray-300">

@@ -1,33 +1,7 @@
 import Card from "../components/Card"
+import cards from "./cards.json"
 
 export default function Portfolio() {
-
-  const portfolioCards = [
-    {
-      id: 1,
-      name: 'Projet 1',
-      href: '#',
-      description: 'Description',
-      imageSrc: 'https://picsum.photos/400/400',
-      imageAlt: 'Projet 1',
-    },
-    {
-      id: 2,
-      name: 'Projet 2',
-      href: '#',
-      description: 'Description',
-      imageSrc: 'https://picsum.photos/400/400',
-      imageAlt: 'Projet 2',
-    },
-    {
-      id: 3,
-      name: 'Projet 3',
-      href: '#',
-      description: 'Description',
-      imageSrc: 'https://picsum.photos/400/400',
-      imageAlt: 'Projet 2',
-    }
-  ]
 
   return (
     <div className="bg-black text-white min-h-screen flex justify-evenly">
@@ -45,7 +19,7 @@ export default function Portfolio() {
         <hr className="border-white/20 mb-10" />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-          {portfolioCards.map((card) => (
+          {cards.map((card) => (
             <Card key={card.id} {...card} />
           ))}
         </div>
